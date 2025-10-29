@@ -9,11 +9,11 @@ Los codigos a ejecutar en la terminal para que las pruebas funcionen son:
 
 Luego, dentro de cada archivo, se importaron las siguientes librerias:
 
-import pytest
-from selenium.webdriver.common.by import By
-import time
-from selenium import webdriver
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
+- import pytest
+- from selenium.webdriver.common.by import By
+- import time
+- from selenium import webdriver
+- from selenium.webdriver.support.ui import WebDriverWait
+- from selenium.webdriver.support import expected_conditions as EC
 
 Para ejecutar las pruebas, hay que correr el archivo "run_tests.py". Va a hacerse un testeo de todas las pruebas y a la vez generar un reporte en html.
