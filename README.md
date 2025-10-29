@@ -6,6 +6,7 @@ Se instalaron 2 frameworks en la terminal para poder trabajar, Pytest y Selenium
 Los codigos a ejecutar en la terminal para que las pruebas funcionen son:
 - pip install pytest
 - pip install selenium
+
 Luego, dentro de cada archivo, se importaron las siguientes librerias:
 
 import pytest
