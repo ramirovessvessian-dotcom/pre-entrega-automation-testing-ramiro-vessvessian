@@ -6,6 +6,7 @@ import utils
 
 def test_login_validation(login_in_driver):
     try:
+        #Prueba para ver si ingresa al inventario
         driver = login_in_driver
         assert "/inventory.html" in driver.current_url, "No se redirigio al inventario"
 

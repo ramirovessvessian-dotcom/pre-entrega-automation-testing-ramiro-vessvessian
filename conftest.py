@@ -11,4 +11,4 @@ def driver():
 @pytest.fixture
 def login_in_driver(driver):
     login(driver)
-    return driver
+    return driver   
